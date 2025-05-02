@@ -12,3 +12,13 @@ body {
     height: 40px;
     border-radius: 50%;
 }
+.Icon-header {
+    width: 32px;
+    height: 32px;
+    margin-right: 25px;
+}
+.absolute_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
