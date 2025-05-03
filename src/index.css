@@ -11,9 +11,14 @@
     @apply font-sans;
     @apply leading-6; }
 
-
-
 @theme inline {
+  /* Define custom color  */
+    --color-Primary : #00B207;
+    --color-Hard-Primary : #2C742F;
+    --color-Warning : #FF8A00;
+    --color-Soft-Primary : #84D187;
+    --color-Danger : #EA4B48;
+
     --radius-sm: calc(var(--radius) - 4px);
     --radius-md: calc(var(--radius) - 2px);
     --radius-lg: var(--radius);
@@ -24,7 +29,6 @@
     --color-card-foreground: var(--card-foreground);
     --color-popover: var(--popover);
     --color-popover-foreground: var(--popover-foreground);
-    --color-primary: var(--primary);
     --color-primary-foreground: var(--primary-foreground);
     --color-secondary: var(--secondary);
     --color-secondary-foreground: var(--secondary-foreground);

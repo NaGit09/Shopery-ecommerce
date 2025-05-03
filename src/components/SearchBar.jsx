@@ -22,7 +22,7 @@ const SearchBar = () => {
         </svg>
         <input type="search" required placeholder="Search" />
       </label>
-      <button className="btn bg-lime-500 border-0 join-item">Search</button>
+      <button className="btn bg-Primary border-0 join-item">Search</button>
     </div>
   );
 };

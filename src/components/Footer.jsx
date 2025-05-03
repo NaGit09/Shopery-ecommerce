@@ -16,11 +16,11 @@ const Footer = () => {
           dui, eget bibendum magna congue nec.
         </p>
         <p>
-          <span className="underline underline-offset-4 decoration-green-500 text-white font-thin mr-2">
+          <span className="underline underline-offset-4 decoration-Primary text-white font-thin mr-2">
             0387822490
           </span>
           or
-          <span className="underline underline-offset-4 decoration-green-500 text-white font-thin ml-2">
+          <span className="underline underline-offset-4 decoration-Primary text-white font-thin ml-2">
             nhutanhtran806@gmail.com
           </span>
         </p>

@@ -1,28 +1,19 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons/faCartShopping";
-const ATCButton = styled.button`
-  background-color: ${(props) =>
-    props.active ? "var(--light-color)" : "  var(--success-color)"};
-  color: ${(props) => (props.active ? "#000" : "#fff")};
-  border: none;
-  cursor: pointer;
-  &:hover {
-    background-color: var(--success-dark-color);
-  }
-`;
 
 const AddToCart = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(true);
   return (
-    <ATCButton
-      className="shadow button-circle"
+    <button
+      className={` button-circle ${active ? "text-white" : "text-gray-900"} ${
+        active ? "bg-Primary" : "bg-gray-50"
+      } hover:bg-Hard-Primary`}
       active={active}
       onClick={() => setActive(!active)}
     >
       <FontAwesomeIcon icon={faCartShopping} />
-    </ATCButton>
+    </button>
   );
 };
 

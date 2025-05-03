@@ -13,7 +13,7 @@ const ShoppingCart = () => {
           top: "-10px",
           right: "10px",
         }}
-        className="absolute bg-green-900 w-6 text-center text-white font-bold"
+        className="absolute bg-Hard-Primary w-6 text-center text-white font-bold"
       >
         2
       </div>

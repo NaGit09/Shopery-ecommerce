@@ -1,8 +1,11 @@
 import React from 'react'
+import Product5n from '../components/Product5n'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <Product5n/>
+    </div>
   )
 }
 

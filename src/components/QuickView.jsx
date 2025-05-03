@@ -1,20 +1,12 @@
 import React from "react";
-import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons/faEye";
-const QV = styled.button`
-  background-color: var(--light-color);
-  &:hover {
-    background-color: var(--success-color);
-    color: #fff;
-  }
-`;
 
 const QuickView = () => {
   return (
-    <QV className="shadow button-circle">
+    <button className="shadow button-circle text-gray-900 bg-white hover:bg-Primary hover:text-white">
       <FontAwesomeIcon icon={faEye} />
-    </QV>
+    </button>
   );
 };
 

@@ -17,7 +17,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "@tailwindcss/vite": "^4.1.4",
+    "@tailwindcss/vite": "^4.1.5",
     "axios": "^1.9.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -30,7 +30,7 @@
     "reset-css": "^5.0.2",
     "styled-components": "^6.1.17",
     "tailwind-merge": "^3.2.0",
-    "tailwindcss": "^4.1.4",
+    "tailwindcss": "^4.1.5",
     "zustand": "^5.0.3"
   },
   "devDependencies": {

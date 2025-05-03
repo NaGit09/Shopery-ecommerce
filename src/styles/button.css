@@ -1,26 +1,24 @@
 .button-small {
   height: 36px;
-  width: 94px;
   padding: 10px 24px;
   font-size: 12px;
 }
 .button-medium {
   height: 45px;
-  width: 117px;
   padding: 14px 32px;
   font-size: 14px;
 }
 .button-large {
   height: 51px;
-  width: 141px;
   padding: 16px 40px;
   font-size: 16px;
 }
 .ghots {
-    
+  color: #00B207;
 background-color: hsla(122, 34%, 51%, 0.1);
 }
 .ghots:hover {
+  color :#2C742F;
 background-color: hsla(122, 34%, 51%, 0.2);
 }
 .filled {
