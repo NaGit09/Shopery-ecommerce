@@ -5,8 +5,8 @@ import DropDown from "./DropDown";
 
 export const NavLink = () => {
   return (
-    <nav className="bg-gray-800 h-12 flex justify-around items-center text-white font-normal">
-      <div>
+    <nav className=" grid grid-rows-1 grid-cols-12 bg-gray-800 h-12  text-white font-normal">
+      <div className="col-span-6 col-start-1 flex items-center justify-start">
         <DropDown index={1} name={"Home"} items={["User home", "Admin home"]} />
         <DropDown index={2} name={"Shop"} items={["User home", "Admin home"]} />
         <DropDown index={3} name={"Page"} items={["User home", "Admin home"]} />
@@ -18,8 +18,8 @@ export const NavLink = () => {
           Contact Us
         </a>
       </div>
-      <div>
-        <FontAwesomeIcon icon={faPhoneVolume} /> <span>(219) 555-0114</span>
+      <div className="col-start-11 flex items-center justify-end mr-2 col-span-2">
+        <FontAwesomeIcon icon={faPhoneVolume} className="mr-2" /> <span>(219) 555-0114</span>
       </div>
     </nav>
   );
