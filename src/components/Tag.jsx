@@ -15,9 +15,9 @@ const Tag = ({ type, sale }) => {
   const backgroundColor = GetBackgroundColor(type);
   return (
     <span
-      className={` px-3 rounded-sm py-1 ${backgroundColor}  text-white text-sm font-semibold absolute top-2 left-2`}
+      className={` px-3 rounded-sm py-1 ${backgroundColor}  text-white text-sm font-semibold`}
     >
-      {type} {sale && `${sale}%`}
+      {type} {type === "Sale" && `${sale}%`}
     </span>
   );
 };

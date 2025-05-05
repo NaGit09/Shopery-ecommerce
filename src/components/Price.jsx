@@ -12,12 +12,12 @@ const getType = (type) => {
 const Price = ({ price, type, sale }) => {
   const style = getType(type);
   return (
-    <span className="ml-2">
-      <span className={`${style} text-gray-900 font-semibold`}>$ {price} </span>
+    <p className="ml-2">
+      <span className={`${style} text-gray-900 font-semibold`}>${price}.00</span>
       {sale && (
-        <span className="text-gray-400 line-through ml-2"> ${sale}</span>
+        <span className={`${style} text-gray-400 line-through ml-2`}> ${price/sale * 100}.00</span>
       )}
-    </span>
+    </p>
   );
 };
 

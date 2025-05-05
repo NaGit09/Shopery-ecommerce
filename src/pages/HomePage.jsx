@@ -1,10 +1,12 @@
 import React from 'react'
-import Product5n from '../components/Product5n'
+import DropDown from '../components/DropDown'
+import TrackPoint from '../components/TrackPoint'
+import AccountLink from '../components/AccountLink'
 
 const HomePage = () => {
   return (
     <div>
-      <Product5n/>
+      <AccountLink/>
     </div>
   )
 }
