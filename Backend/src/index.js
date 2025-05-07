@@ -2,12 +2,14 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from "cors";
 import {connectDB} from './libs/db.js';
+import authRoutes from './routes/auth.route.js'; // Import the auth routes
 dotenv.config();
 const PORT = process.env.PORT || 5000;
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use("/api/auth", authRoutes); // Use the auth routes for any requests to /api/auth
 app.get("/", (req, res) => {
     res.send("Hello World!");
 }
