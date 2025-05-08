@@ -35,14 +35,15 @@ const GetIconBrand = (brand) => {
 const BrandButton = ({ brand }) => {
   const Brand = GetIconBrand(brand);
   return (
-    <div>
       <a
         href={Brand.link}
-        className="absolute_center shadow button-circle text-white bg-light text-2xl hover:text-white hover:bg-Primary hover:scale-110 transition-all duration-300"
+        className="absolute_center shadow button-circle 
+        text-white bg-light text-2xl
+         hover:text-white hover:bg-Primary hover:scale-110 
+         transition-all duration-300"
       >
         {Brand.icon}
       </a>
-    </div>
   );
 };
 

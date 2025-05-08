@@ -15,7 +15,9 @@ const Price = ({ price, type, sale }) => {
     <p className="ml-2">
       <span className={`${style} text-gray-900 font-semibold`}>${price}.00</span>
       {sale && (
-        <span className={`${style} text-gray-400 line-through ml-2`}> ${price/sale * 100}.00</span>
+        <span className={`${style}
+           text-gray-400 line-through ml-2`}>
+             ${price/sale * 100}.00</span>
       )}
     </p>
   );

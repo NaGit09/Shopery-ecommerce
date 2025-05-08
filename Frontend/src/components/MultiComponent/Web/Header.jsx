@@ -5,9 +5,9 @@ import {
   faChevronDown,
 } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
-import Logo from "../assets/OFood.png";
-import SearchBar from "./SearchBar";
-import ShoppingCart from "./ShoppingCart";
+import Logo from "../../../assets/OFood.png";
+import SearchBar from "../../SingleComponent/Block/SearchBar";
+import ShoppingCart from "../Shopping/ShoppingCart";
 import { NavLink } from "./NavLink";
 const Header = () => {
   return (

@@ -1,11 +1,5 @@
-:root {
-    --success-color: #00B207;
-    --success-dark-color: #2C742F;
-    --light-color : #fff
-
-}
-body {
-    height: 100vh;
+* {
+    box-sizing: border-box;
 }
 .button-circle {
     width: 40px;

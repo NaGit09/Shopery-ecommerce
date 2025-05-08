@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-export const GenStar =  ({quantity}) => {
+export const GenStar =  (quantity) => {
    return   (
     <ul className="flex gap-1">
         {[...Array(quantity)].map((_, i) => (

@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from "cors";
+import cookieParser from 'cookie-parser';
 import {connectDB} from './libs/db.js';
 import authRoutes from './routes/auth.route.js'; // Import the auth routes
 dotenv.config();
@@ -14,6 +15,7 @@ app.get("/", (req, res) => {
     res.send("Hello World!");
 }
 );
+app.use(cookieParser());
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 connectDB(); // Connect to the database when the server starts

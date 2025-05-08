@@ -1,5 +1,5 @@
 import React from "react";
-import CartProduct from "./CartProduct";
+import CartProduct from "../Product/CartProduct";
 import Apple from "../assets/Fruits/GreenApple.png";
 import Button from "./Button";
 const ShoppingCartPopUp = ({ data }) => {

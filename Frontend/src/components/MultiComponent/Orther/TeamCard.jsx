@@ -1,6 +1,6 @@
 import { React, useState } from "react";
-import Member from "../assets/Team/TeamMember.png";
-import BrandButton from "./BrandButton";
+import Member from "../../../assets/Team/TeamMember.png";
+import BrandButton from "../../SingleComponent/Achor/BrandButton";
 const TeamCard = () => {
   const [mouseOn, setMouseOn] = useState(false);
   return (

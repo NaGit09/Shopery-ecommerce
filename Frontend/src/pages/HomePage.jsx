@@ -1,11 +1,11 @@
 import React from 'react'
-import TeamCard from '../components/TeamCard'
-import Arrow from '../components/Arrow'
+import BlogCard from '../components/MultiComponent/Orther/BlogCard'
+import OrderHistory from '../components/SingleComponent/Block/OrderHistory'
 
 const HomePage = () => {
   return (
     <div>
-      <Arrow/>
+      <OrderHistory/>
     </div>
   )
 }

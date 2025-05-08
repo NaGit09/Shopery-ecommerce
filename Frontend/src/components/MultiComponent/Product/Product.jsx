@@ -3,7 +3,7 @@ import Tag from "./Tag";
 import Apple from "../assets/Fruits/GreenApple.png";
 import AddToCart from "./AddToCart";
 import QuickView from "./QuickView";
-import { GenStar } from "../utils/Generate";
+import { GenStar } from "../../../utils/Generate";
 import Price from "./Price";
 import AddToWishList from "./AddToWishList";
 const getType = (type) => {
@@ -38,7 +38,7 @@ const Product = ({data, type }) => {
         <div className="flex flex-col justify-center items-start">
           <h4>{data.name}</h4>
           <Price type="small" price={data.price} />
-          <div> {GenStar({ quantity: data.star })}</div>
+          <div> {GenStar(data.star)}</div>
         </div>
         <AddToCart shape={"button-circle"} />
       </div>

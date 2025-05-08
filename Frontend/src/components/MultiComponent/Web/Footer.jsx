@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../assets/OFoodLight.png";
-import Cart from '../assets/Payment/Cart.png';
-import ApplePay from '../assets/Payment/Method=ApplePay.png';
-import Discover from '../assets/Payment/Method=Discover.png';
-import Mastercard from '../assets/Payment/Method=Mastercard.png';
-import Visa from "../assets/Payment/Method=Visa.png";
+import logo from "../../../assets/OFoodLight.png";
+import Cart from '../../../assets/Payment/Cart.png';
+import ApplePay from '../../../assets/Payment/Method=ApplePay.png';
+import Discover from '../../../assets/Payment/Method=Discover.png';
+import Mastercard from '../../../assets/Payment/Method=Mastercard.png';
+import Visa from "../../../assets/Payment/Method=Visa.png";
 
 const Footer = () => {
   return (

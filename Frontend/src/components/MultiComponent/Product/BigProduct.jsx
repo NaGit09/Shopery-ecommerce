@@ -5,8 +5,8 @@ import AddToWishList from "./AddToWishList";
 import AddToCart from "./AddToCart";
 import QuickView from "./QuickView";
 import Price from "./Price";
-import { GenStar } from "../utils/Generate";
-import Coutdown from "./Coutdown";
+import { GenStar } from "../../../utils/Generate";
+import Coutdown from "../../SingleComponent/Block/Coutdown";
 const BigProduct = () => {
   const data = {
     name: "Green Apple",

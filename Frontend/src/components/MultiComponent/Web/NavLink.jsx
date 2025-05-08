@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
-import DropDown from "./DropDown";
+import DropDown from "../../SingleComponent/Block/DropDown";
 
 export const NavLink = () => {
   return (
