@@ -8,7 +8,12 @@ dotenv.config();
 const PORT = process.env.PORT || 5000;
 
 const app = express();
-app.use(cors());
+// define cors url frontend 
+app.use(cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  }));
+  
 app.use(express.json());
 app.use("/api/auth", authRoutes); // Use the auth routes for any requests to /api/auth
 app.get("/", (req, res) => {

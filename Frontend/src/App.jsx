@@ -6,17 +6,19 @@ import Shop from "./pages/Shopping/Shop.jsx";
 import SignIn from "./pages/Auth/SignIn.jsx";
 import SignUp from "./pages/Auth/SignUp.jsx";
 import Footer from "./components/MultiComponent/Web/Footer.jsx";
+import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <div className="h-dvh">
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/SignUp" element={<SignUp />} />
       </Routes>
-      {/* <Footer /> */}
+      <Toaster />
+      <Footer />
     </div>
   );
 }

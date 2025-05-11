@@ -11,7 +11,6 @@ export const register = async (req, res) => {
   try {
     // validate input
     validateCreateUser(fullname, email, password, res);
-    validatePassword(password, res);
     // Check if user already exists
     const existingUser = await User.findOne({ email });
     if (existingUser) {

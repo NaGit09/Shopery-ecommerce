@@ -37,8 +37,8 @@ const BrandButton = ({ brand }) => {
   return (
       <a
         href={Brand.link}
-        className="absolute_center shadow button-circle 
-        text-white bg-light text-2xl
+        className="absolute_center button-circle 
+         bg-light text-2xl
          hover:text-white hover:bg-Primary hover:scale-110 
          transition-all duration-300"
       >
